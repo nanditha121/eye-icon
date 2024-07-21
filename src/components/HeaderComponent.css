@@ -1,0 +1,64 @@
+@keyframes animateBackground {
+    0% {
+      background-color: #e0f7fa; 
+    }
+    50% {
+      background-color: #b2ebf2; 
+    }
+    100% {
+      background-color: #e0f7fa; 
+    }
+  }
+  
+
+  .animate-bgChange {
+    animation: animateBackground 10s infinite;
+  }
+  
+ 
+  .card {
+    border-radius: 15px;
+    max-width: 400px;
+    width: 100%;
+  }
+  
+
+  .card h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+
+  .card p {
+    color: #6c757d; 
+    margin-bottom: 1rem;
+  }
+  
+
+  .card button {
+    margin-bottom: 1rem;
+  }
+  
+
+  .card div {
+    color: #343a40; 
+  }
+
+  
+
+  @media (max-width: 576px) {
+    .card {
+      padding: 1rem;
+    }
+    .card h1 {
+      font-size: 1.5rem;
+    }
+    .card p {
+      font-size: 0.875rem;
+    }
+    .card button {
+      font-size: 0.875rem;
+      padding: 0.5rem 1rem;
+    }
+  }
